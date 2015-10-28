@@ -20,7 +20,7 @@ import com.fasterxml.jackson.annotation.JacksonAnnotation;
 @JacksonAnnotation
 public @interface JacksonInject
 {
-    /**
+    /***
      * Logical id of the value to inject; if not specified (or specified
      * as empty String), will use id based on declared type of property.
      */
